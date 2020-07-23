@@ -1,0 +1,28 @@
+GazTab					LightTab					WaterTab					TrashTab
+
+tbxGazPimaryVal			tbxLightPrimaryVal		tbxWaterPrimaryVal		lbTrashTitle
+tbxGazFinalVal			tbxLightFinalVal			tbxWaterFinalVal			lbPersonAmount
+tbxSpentCub				tbxSpentLight			tbxSpentWater			lbTrashResultPay
+tbxGazResultPay			tbxLightResultPay		tbxWaterResultPay		lbTrashConst
+btnCalcGaz				btnCalcLight				btnCalcWater				tbxPersonAmount
+btnGazReset				btnLightReset			btnWaterReset			tbxTrashResultPay
+btnGazSaveResult			btnLightSaveResult		btnWaterSaveResult		tbxTrashConst
+									
+lbGazPrimaryVal			lbLightPrima	ryVal		lbWaterPrimaryVal		btnTrashCalc
+lbGazFinalVal			lbLightFinalVal			lbWaterFinalVal			btnTrashREset
+lbGazTitle				lbLightTitle				lbWaterTitle				btnTrashSaveResult
+lbGazConst				lbLightConst				lbWaterConst
+tbxGazConstVal			tbxLightConstVal			tbxWaterConstVal			pictureBoxTrash
+lbSpentCub				lbSpentLight				lbSpentWater				trashDataGridView
+lbGazResultPay 			lbLightResultPay			lbWaterResultPay
+pictureBoxGaz			pictureBoxLight			pictureBoxWater
+gazDataGridView			lightDataGridView		waterDataGridView
+
+
+
+
+
+
+
+
+

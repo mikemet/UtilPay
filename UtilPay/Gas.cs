@@ -6,7 +6,7 @@ namespace UtilPay
     {
         public uint NumberOfCubes;
         public decimal TotaGazlCost;
-        const decimal GazTariff = 5.772M;
+        const decimal GazTariff = 5.935M;
 
         public Gaz()
         {}

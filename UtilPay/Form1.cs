@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Linq;
 using System.Data;
 
 namespace UtilPay
@@ -22,7 +21,7 @@ namespace UtilPay
 
         private void AboutProgramToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(" Программа для ведения учета комунальных платежей.\n Предназначена для владельцев отдельных (собственных) домов.\n Автор: mikemet\n Версия: 1.0.1.16\n ©2017-2019", "О Программе");
+            MessageBox.Show(" Программа для ведения учета комунальных платежей.\n Предназначена для владельцев отдельных (собственных) домов.\n Автор: mikemet\n Версия: 1.0.1.16\n ©2017-2020", "О Программе");
         }
 
         // ================ load tables in DataGridView ===============

@@ -4,7 +4,7 @@ namespace UtilPay
 {
     class Light
     {
-        const decimal LightTariff = 3.51M;
+        const decimal LightTariff = 3.63M;
         public decimal TotalLightCost;
         public uint SpentKilowatt;
 

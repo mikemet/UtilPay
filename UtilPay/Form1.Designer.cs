@@ -192,7 +192,7 @@
             this.AboutProgramToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(748, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(752, 36);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -201,20 +201,20 @@
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ExitAltF4ToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(74, 32);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // ExitAltF4ToolStripMenuItem
             // 
             this.ExitAltF4ToolStripMenuItem.Name = "ExitAltF4ToolStripMenuItem";
-            this.ExitAltF4ToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.ExitAltF4ToolStripMenuItem.Size = new System.Drawing.Size(250, 32);
             this.ExitAltF4ToolStripMenuItem.Text = "Выход     Alt + F4";
             this.ExitAltF4ToolStripMenuItem.Click += new System.EventHandler(this.ExitAltF4ToolStripMenuItem_Click);
             // 
             // AboutProgramToolStripMenuItem
             // 
             this.AboutProgramToolStripMenuItem.Name = "AboutProgramToolStripMenuItem";
-            this.AboutProgramToolStripMenuItem.Size = new System.Drawing.Size(144, 29);
+            this.AboutProgramToolStripMenuItem.Size = new System.Drawing.Size(152, 32);
             this.AboutProgramToolStripMenuItem.Text = "О Программе";
             this.AboutProgramToolStripMenuItem.Click += new System.EventHandler(this.AboutProgramToolStripMenuItem_Click);
             // 
@@ -225,10 +225,10 @@
             this.tabControl.Controls.Add(this.tabPageWater);
             this.tabControl.Controls.Add(this.tabPageTrush);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl.Location = new System.Drawing.Point(0, 33);
+            this.tabControl.Location = new System.Drawing.Point(0, 36);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(748, 601);
+            this.tabControl.Size = new System.Drawing.Size(752, 605);
             this.tabControl.TabIndex = 1;
             // 
             // tabPageGaz
@@ -249,10 +249,10 @@
             this.tabPageGaz.Controls.Add(this.lbgazFinalTitle);
             this.tabPageGaz.Controls.Add(this.tbxGazResultPay);
             this.tabPageGaz.Controls.Add(this.pictureBoxGaz);
-            this.tabPageGaz.Location = new System.Drawing.Point(4, 34);
+            this.tabPageGaz.Location = new System.Drawing.Point(4, 29);
             this.tabPageGaz.Name = "tabPageGaz";
             this.tabPageGaz.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageGaz.Size = new System.Drawing.Size(740, 563);
+            this.tabPageGaz.Size = new System.Drawing.Size(744, 572);
             this.tabPageGaz.TabIndex = 0;
             this.tabPageGaz.Text = "Газ";
             this.tabPageGaz.UseVisualStyleBackColor = true;
@@ -262,7 +262,7 @@
             this.tbxGazFinalVal.Font = new System.Drawing.Font("Verdana", 12.18462F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxGazFinalVal.Location = new System.Drawing.Point(184, 97);
             this.tbxGazFinalVal.Name = "tbxGazFinalVal";
-            this.tbxGazFinalVal.Size = new System.Drawing.Size(108, 37);
+            this.tbxGazFinalVal.Size = new System.Drawing.Size(108, 32);
             this.tbxGazFinalVal.TabIndex = 2;
             this.tbxGazFinalVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxGazFinalVal.TextChanged += new System.EventHandler(this.tbxGazFinalVal_TextChanged);
@@ -273,7 +273,7 @@
             this.tbxGazPrimaryVal.Font = new System.Drawing.Font("Verdana", 12.18462F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxGazPrimaryVal.Location = new System.Drawing.Point(184, 52);
             this.tbxGazPrimaryVal.Name = "tbxGazPrimaryVal";
-            this.tbxGazPrimaryVal.Size = new System.Drawing.Size(108, 37);
+            this.tbxGazPrimaryVal.Size = new System.Drawing.Size(108, 32);
             this.tbxGazPrimaryVal.TabIndex = 1;
             this.tbxGazPrimaryVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxGazPrimaryVal.TextChanged += new System.EventHandler(this.tbxGazPrimaryVal_TextChanged);
@@ -313,7 +313,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.gazDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.gazDataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gazDataGridView.Location = new System.Drawing.Point(3, 195);
+            this.gazDataGridView.Location = new System.Drawing.Point(3, 204);
             this.gazDataGridView.Name = "gazDataGridView";
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
@@ -326,7 +326,7 @@
             this.gazDataGridView.RowHeadersWidth = 62;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.gazDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.gazDataGridView.Size = new System.Drawing.Size(734, 365);
+            this.gazDataGridView.Size = new System.Drawing.Size(738, 365);
             this.gazDataGridView.TabIndex = 49;
             // 
             // btnCalcGaz
@@ -350,9 +350,9 @@
             this.txbGazConstVal.Margin = new System.Windows.Forms.Padding(2);
             this.txbGazConstVal.Name = "txbGazConstVal";
             this.txbGazConstVal.ReadOnly = true;
-            this.txbGazConstVal.Size = new System.Drawing.Size(76, 44);
+            this.txbGazConstVal.Size = new System.Drawing.Size(76, 38);
             this.txbGazConstVal.TabIndex = 47;
-            this.txbGazConstVal.Text = "5,772";
+            this.txbGazConstVal.Text = "5,935";
             this.txbGazConstVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnGazSaveResult
@@ -376,7 +376,7 @@
             this.lbgazTitle.Location = new System.Drawing.Point(253, 3);
             this.lbgazTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbgazTitle.Name = "lbgazTitle";
-            this.lbgazTitle.Size = new System.Drawing.Size(431, 38);
+            this.lbgazTitle.Size = new System.Drawing.Size(360, 33);
             this.lbgazTitle.TabIndex = 46;
             this.lbgazTitle.Text = "Расход природного газа.";
             // 
@@ -389,7 +389,7 @@
             this.tbxSpentCub.Margin = new System.Windows.Forms.Padding(2);
             this.tbxSpentCub.Name = "tbxSpentCub";
             this.tbxSpentCub.ReadOnly = true;
-            this.tbxSpentCub.Size = new System.Drawing.Size(144, 48);
+            this.tbxSpentCub.Size = new System.Drawing.Size(144, 41);
             this.tbxSpentCub.TabIndex = 39;
             this.tbxSpentCub.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -400,7 +400,7 @@
             this.lbSpentCub.Location = new System.Drawing.Point(80, 150);
             this.lbSpentCub.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbSpentCub.Name = "lbSpentCub";
-            this.lbSpentCub.Size = new System.Drawing.Size(265, 29);
+            this.lbSpentCub.Size = new System.Drawing.Size(226, 24);
             this.lbSpentCub.TabIndex = 45;
             this.lbSpentCub.Text = "Потрачено(куб./м.)";
             // 
@@ -412,7 +412,7 @@
             this.lbGazConst.Location = new System.Drawing.Point(478, 56);
             this.lbGazConst.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbGazConst.Name = "lbGazConst";
-            this.lbGazConst.Size = new System.Drawing.Size(210, 33);
+            this.lbGazConst.Size = new System.Drawing.Size(181, 28);
             this.lbGazConst.TabIndex = 44;
             this.lbGazConst.Text = "Коэффициент :";
             // 
@@ -436,7 +436,7 @@
             this.lbGazResultPay.Location = new System.Drawing.Point(275, 150);
             this.lbGazResultPay.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbGazResultPay.Name = "lbGazResultPay";
-            this.lbGazResultPay.Size = new System.Drawing.Size(181, 29);
+            this.lbGazResultPay.Size = new System.Drawing.Size(154, 24);
             this.lbGazResultPay.TabIndex = 41;
             this.lbGazResultPay.Text = "Оплата(руб.)";
             // 
@@ -447,7 +447,7 @@
             this.lbgazPrimaryTitle.Location = new System.Drawing.Point(9, 43);
             this.lbgazPrimaryTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbgazPrimaryTitle.Name = "lbgazPrimaryTitle";
-            this.lbgazPrimaryTitle.Size = new System.Drawing.Size(240, 52);
+            this.lbgazPrimaryTitle.Size = new System.Drawing.Size(200, 44);
             this.lbgazPrimaryTitle.TabIndex = 40;
             this.lbgazPrimaryTitle.Text = "Введите НАЧАЛЬНЫЕ\r\nпоказания счетчика:";
             // 
@@ -458,7 +458,7 @@
             this.lbgazFinalTitle.Location = new System.Drawing.Point(9, 92);
             this.lbgazFinalTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbgazFinalTitle.Name = "lbgazFinalTitle";
-            this.lbgazFinalTitle.Size = new System.Drawing.Size(252, 52);
+            this.lbgazFinalTitle.Size = new System.Drawing.Size(210, 44);
             this.lbgazFinalTitle.TabIndex = 38;
             this.lbgazFinalTitle.Text = "Введите  КОНЕЧНЫЕ\r\nпоказания  счетчика:";
             // 
@@ -471,7 +471,7 @@
             this.tbxGazResultPay.Margin = new System.Windows.Forms.Padding(2);
             this.tbxGazResultPay.Name = "tbxGazResultPay";
             this.tbxGazResultPay.ReadOnly = true;
-            this.tbxGazResultPay.Size = new System.Drawing.Size(144, 48);
+            this.tbxGazResultPay.Size = new System.Drawing.Size(144, 41);
             this.tbxGazResultPay.TabIndex = 42;
             this.tbxGazResultPay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -503,10 +503,10 @@
             this.tabPageLight.Controls.Add(this.lbLightPrimaryTitle);
             this.tabPageLight.Controls.Add(this.lbLightFinalTitle);
             this.tabPageLight.Controls.Add(this.lbLightTitle);
-            this.tabPageLight.Location = new System.Drawing.Point(4, 34);
+            this.tabPageLight.Location = new System.Drawing.Point(4, 29);
             this.tabPageLight.Name = "tabPageLight";
             this.tabPageLight.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageLight.Size = new System.Drawing.Size(740, 563);
+            this.tabPageLight.Size = new System.Drawing.Size(744, 572);
             this.tabPageLight.TabIndex = 1;
             this.tabPageLight.Text = "Свет";
             this.tabPageLight.UseVisualStyleBackColor = true;
@@ -544,14 +544,14 @@
             dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.lightDataGridView.DefaultCellStyle = dataGridViewCellStyle14;
             this.lightDataGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.lightDataGridView.Location = new System.Drawing.Point(3, 194);
+            this.lightDataGridView.Location = new System.Drawing.Point(3, 203);
             this.lightDataGridView.Name = "lightDataGridView";
             this.lightDataGridView.RowHeadersWidth = 62;
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle15.Font = new System.Drawing.Font("Verdana", 9.969231F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lightDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.lightDataGridView.RowTemplate.Height = 24;
-            this.lightDataGridView.Size = new System.Drawing.Size(734, 366);
+            this.lightDataGridView.Size = new System.Drawing.Size(738, 366);
             this.lightDataGridView.TabIndex = 38;
             // 
             // lbLightResultPay
@@ -560,7 +560,7 @@
             this.lbLightResultPay.Font = new System.Drawing.Font("Consolas", 12.18462F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbLightResultPay.Location = new System.Drawing.Point(275, 150);
             this.lbLightResultPay.Name = "lbLightResultPay";
-            this.lbLightResultPay.Size = new System.Drawing.Size(181, 29);
+            this.lbLightResultPay.Size = new System.Drawing.Size(154, 24);
             this.lbLightResultPay.TabIndex = 37;
             this.lbLightResultPay.Text = "Оплата(руб.)";
             // 
@@ -583,7 +583,7 @@
             this.tbxLightResultPay.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.tbxLightResultPay.Location = new System.Drawing.Point(266, 176);
             this.tbxLightResultPay.Name = "tbxLightResultPay";
-            this.tbxLightResultPay.Size = new System.Drawing.Size(144, 49);
+            this.tbxLightResultPay.Size = new System.Drawing.Size(144, 42);
             this.tbxLightResultPay.TabIndex = 35;
             this.tbxLightResultPay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -605,9 +605,9 @@
             this.tbxLightConstVal.Location = new System.Drawing.Point(504, 97);
             this.tbxLightConstVal.Name = "tbxLightConstVal";
             this.tbxLightConstVal.ReadOnly = true;
-            this.tbxLightConstVal.Size = new System.Drawing.Size(76, 44);
+            this.tbxLightConstVal.Size = new System.Drawing.Size(76, 38);
             this.tbxLightConstVal.TabIndex = 33;
-            this.tbxLightConstVal.Text = "3,51";
+            this.tbxLightConstVal.Text = "3,63";
             this.tbxLightConstVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnLightSaveResult
@@ -630,7 +630,7 @@
             this.tbxSpentLight.Location = new System.Drawing.Point(84, 176);
             this.tbxSpentLight.Name = "tbxSpentLight";
             this.tbxSpentLight.ReadOnly = true;
-            this.tbxSpentLight.Size = new System.Drawing.Size(144, 48);
+            this.tbxSpentLight.Size = new System.Drawing.Size(144, 41);
             this.tbxSpentLight.TabIndex = 28;
             this.tbxSpentLight.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -640,7 +640,7 @@
             this.lbSpentLight.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbSpentLight.Location = new System.Drawing.Point(80, 150);
             this.lbSpentLight.Name = "lbSpentLight";
-            this.lbSpentLight.Size = new System.Drawing.Size(220, 28);
+            this.lbSpentLight.Size = new System.Drawing.Size(186, 23);
             this.lbSpentLight.TabIndex = 31;
             this.lbSpentLight.Text = "Потрачено(кВт/ч)";
             // 
@@ -661,7 +661,7 @@
             this.tbxLightPrimaryVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxLightPrimaryVal.Location = new System.Drawing.Point(184, 52);
             this.tbxLightPrimaryVal.Name = "tbxLightPrimaryVal";
-            this.tbxLightPrimaryVal.Size = new System.Drawing.Size(108, 39);
+            this.tbxLightPrimaryVal.Size = new System.Drawing.Size(108, 34);
             this.tbxLightPrimaryVal.TabIndex = 1;
             this.tbxLightPrimaryVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxLightPrimaryVal.TextChanged += new System.EventHandler(this.tbxLightPrimaryVal_TextChanged);
@@ -672,7 +672,7 @@
             this.tbxLightFinalVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxLightFinalVal.Location = new System.Drawing.Point(184, 99);
             this.tbxLightFinalVal.Name = "tbxLightFinalVal";
-            this.tbxLightFinalVal.Size = new System.Drawing.Size(108, 39);
+            this.tbxLightFinalVal.Size = new System.Drawing.Size(108, 34);
             this.tbxLightFinalVal.TabIndex = 2;
             this.tbxLightFinalVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxLightFinalVal.TextChanged += new System.EventHandler(this.tbxLightFinalVal_TextChanged);
@@ -686,7 +686,7 @@
             this.lbLightConst.Location = new System.Drawing.Point(485, 39);
             this.lbLightConst.Margin = new System.Windows.Forms.Padding(0);
             this.lbLightConst.Name = "lbLightConst";
-            this.lbLightConst.Size = new System.Drawing.Size(180, 66);
+            this.lbLightConst.Size = new System.Drawing.Size(155, 56);
             this.lbLightConst.TabIndex = 27;
             this.lbLightConst.Text = "   Тариф\r\n(кВт*ч/руб)";
             // 
@@ -696,7 +696,7 @@
             this.lbLightPrimaryTitle.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbLightPrimaryTitle.Location = new System.Drawing.Point(9, 43);
             this.lbLightPrimaryTitle.Name = "lbLightPrimaryTitle";
-            this.lbLightPrimaryTitle.Size = new System.Drawing.Size(240, 52);
+            this.lbLightPrimaryTitle.Size = new System.Drawing.Size(200, 44);
             this.lbLightPrimaryTitle.TabIndex = 25;
             this.lbLightPrimaryTitle.Text = "Введите НАЧАЛЬНЫЕ \r\nпоказания счетчика:";
             // 
@@ -706,7 +706,7 @@
             this.lbLightFinalTitle.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbLightFinalTitle.Location = new System.Drawing.Point(9, 92);
             this.lbLightFinalTitle.Name = "lbLightFinalTitle";
-            this.lbLightFinalTitle.Size = new System.Drawing.Size(252, 52);
+            this.lbLightFinalTitle.Size = new System.Drawing.Size(210, 44);
             this.lbLightFinalTitle.TabIndex = 23;
             this.lbLightFinalTitle.Text = "Введите  КОНЕЧНЫЕ\r\nпоказания  счетчика:";
             // 
@@ -717,7 +717,7 @@
             this.lbLightTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.lbLightTitle.Location = new System.Drawing.Point(253, 3);
             this.lbLightTitle.Name = "lbLightTitle";
-            this.lbLightTitle.Size = new System.Drawing.Size(431, 38);
+            this.lbLightTitle.Size = new System.Drawing.Size(360, 33);
             this.lbLightTitle.TabIndex = 21;
             this.lbLightTitle.Text = "Расход электро-энергии.";
             // 
@@ -739,10 +739,10 @@
             this.tabPageWater.Controls.Add(this.lbWaterPrimaryVal);
             this.tabPageWater.Controls.Add(this.pictureBoxWater);
             this.tabPageWater.Controls.Add(this.lbWaterTitle);
-            this.tabPageWater.Location = new System.Drawing.Point(4, 34);
+            this.tabPageWater.Location = new System.Drawing.Point(4, 29);
             this.tabPageWater.Name = "tabPageWater";
             this.tabPageWater.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageWater.Size = new System.Drawing.Size(740, 563);
+            this.tabPageWater.Size = new System.Drawing.Size(744, 572);
             this.tabPageWater.TabIndex = 2;
             this.tabPageWater.Text = "Вода";
             this.tabPageWater.UseVisualStyleBackColor = true;
@@ -780,7 +780,7 @@
             dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.waterGridView.DefaultCellStyle = dataGridViewCellStyle17;
             this.waterGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.waterGridView.Location = new System.Drawing.Point(3, 194);
+            this.waterGridView.Location = new System.Drawing.Point(3, 203);
             this.waterGridView.Name = "waterGridView";
             dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
@@ -792,7 +792,7 @@
             this.waterGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.waterGridView.RowHeadersWidth = 62;
             this.waterGridView.RowTemplate.Height = 24;
-            this.waterGridView.Size = new System.Drawing.Size(734, 366);
+            this.waterGridView.Size = new System.Drawing.Size(738, 366);
             this.waterGridView.TabIndex = 15;
             // 
             // btnWaterSaveResult
@@ -815,7 +815,7 @@
             this.tbxWaterResultPay.Location = new System.Drawing.Point(266, 176);
             this.tbxWaterResultPay.Name = "tbxWaterResultPay";
             this.tbxWaterResultPay.ReadOnly = true;
-            this.tbxWaterResultPay.Size = new System.Drawing.Size(144, 49);
+            this.tbxWaterResultPay.Size = new System.Drawing.Size(144, 42);
             this.tbxWaterResultPay.TabIndex = 13;
             this.tbxWaterResultPay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -827,7 +827,7 @@
             this.tbxSpentWater.Location = new System.Drawing.Point(84, 176);
             this.tbxSpentWater.Name = "tbxSpentWater";
             this.tbxSpentWater.ReadOnly = true;
-            this.tbxSpentWater.Size = new System.Drawing.Size(144, 49);
+            this.tbxSpentWater.Size = new System.Drawing.Size(144, 42);
             this.tbxSpentWater.TabIndex = 12;
             this.tbxSpentWater.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -837,7 +837,7 @@
             this.lbWaterResultPay.Font = new System.Drawing.Font("Consolas", 12.18462F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbWaterResultPay.Location = new System.Drawing.Point(275, 150);
             this.lbWaterResultPay.Name = "lbWaterResultPay";
-            this.lbWaterResultPay.Size = new System.Drawing.Size(181, 29);
+            this.lbWaterResultPay.Size = new System.Drawing.Size(154, 24);
             this.lbWaterResultPay.TabIndex = 11;
             this.lbWaterResultPay.Text = "Оплата(руб.)";
             // 
@@ -847,7 +847,7 @@
             this.lbSpentWater.Font = new System.Drawing.Font("Consolas", 12.18462F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbSpentWater.Location = new System.Drawing.Point(80, 150);
             this.lbSpentWater.Name = "lbSpentWater";
-            this.lbSpentWater.Size = new System.Drawing.Size(223, 29);
+            this.lbSpentWater.Size = new System.Drawing.Size(190, 24);
             this.lbSpentWater.TabIndex = 10;
             this.lbSpentWater.Text = "Потрачено(куб.)";
             // 
@@ -860,9 +860,9 @@
             this.tbxWaterConstVal.Location = new System.Drawing.Point(504, 97);
             this.tbxWaterConstVal.Name = "tbxWaterConstVal";
             this.tbxWaterConstVal.ReadOnly = true;
-            this.tbxWaterConstVal.Size = new System.Drawing.Size(76, 44);
+            this.tbxWaterConstVal.Size = new System.Drawing.Size(76, 38);
             this.tbxWaterConstVal.TabIndex = 9;
-            this.tbxWaterConstVal.Text = "25.72";
+            this.tbxWaterConstVal.Text = "26.34";
             this.tbxWaterConstVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbWaterConst
@@ -872,7 +872,7 @@
             this.lbWaterConst.ForeColor = System.Drawing.Color.Teal;
             this.lbWaterConst.Location = new System.Drawing.Point(495, 39);
             this.lbWaterConst.Name = "lbWaterConst";
-            this.lbWaterConst.Size = new System.Drawing.Size(150, 66);
+            this.lbWaterConst.Size = new System.Drawing.Size(129, 56);
             this.lbWaterConst.TabIndex = 8;
             this.lbWaterConst.Text = "  Тариф\r\n(руб/куб)";
             // 
@@ -905,7 +905,7 @@
             this.tbxWaterFinalVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.84615F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxWaterFinalVal.Location = new System.Drawing.Point(184, 99);
             this.tbxWaterFinalVal.Name = "tbxWaterFinalVal";
-            this.tbxWaterFinalVal.Size = new System.Drawing.Size(108, 39);
+            this.tbxWaterFinalVal.Size = new System.Drawing.Size(108, 34);
             this.tbxWaterFinalVal.TabIndex = 5;
             this.tbxWaterFinalVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxWaterFinalVal.TextChanged += new System.EventHandler(this.tbxWaterFinalVal_TextChanged);
@@ -916,7 +916,7 @@
             this.tbxWaterPrimaryVal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.84615F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxWaterPrimaryVal.Location = new System.Drawing.Point(184, 52);
             this.tbxWaterPrimaryVal.Name = "tbxWaterPrimaryVal";
-            this.tbxWaterPrimaryVal.Size = new System.Drawing.Size(108, 39);
+            this.tbxWaterPrimaryVal.Size = new System.Drawing.Size(108, 34);
             this.tbxWaterPrimaryVal.TabIndex = 4;
             this.tbxWaterPrimaryVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxWaterPrimaryVal.TextChanged += new System.EventHandler(this.tbxWaterPrimaryVal_TextChanged);
@@ -928,7 +928,7 @@
             this.lbWaterFinalVal.Font = new System.Drawing.Font("Consolas", 11.07692F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbWaterFinalVal.Location = new System.Drawing.Point(9, 92);
             this.lbWaterFinalVal.Name = "lbWaterFinalVal";
-            this.lbWaterFinalVal.Size = new System.Drawing.Size(272, 54);
+            this.lbWaterFinalVal.Size = new System.Drawing.Size(210, 44);
             this.lbWaterFinalVal.TabIndex = 3;
             this.lbWaterFinalVal.Text = "Введите  КОНЕЧНЫЕ\r\nпоказания  счетчика:";
             // 
@@ -938,7 +938,7 @@
             this.lbWaterPrimaryVal.Font = new System.Drawing.Font("Consolas", 11.07692F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbWaterPrimaryVal.Location = new System.Drawing.Point(9, 43);
             this.lbWaterPrimaryVal.Name = "lbWaterPrimaryVal";
-            this.lbWaterPrimaryVal.Size = new System.Drawing.Size(259, 54);
+            this.lbWaterPrimaryVal.Size = new System.Drawing.Size(200, 44);
             this.lbWaterPrimaryVal.TabIndex = 2;
             this.lbWaterPrimaryVal.Text = "Введите НАЧАЛЬНЫЕ\r\nпоказания счетчика:";
             // 
@@ -959,7 +959,7 @@
             this.lbWaterTitle.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.lbWaterTitle.Location = new System.Drawing.Point(253, 3);
             this.lbWaterTitle.Name = "lbWaterTitle";
-            this.lbWaterTitle.Size = new System.Drawing.Size(215, 38);
+            this.lbWaterTitle.Size = new System.Drawing.Size(180, 32);
             this.lbWaterTitle.TabIndex = 0;
             this.lbWaterTitle.Text = "Расход воды";
             // 
@@ -977,10 +977,10 @@
             this.tabPageTrush.Controls.Add(this.lbTrashConst);
             this.tabPageTrush.Controls.Add(this.lbPersonAmount);
             this.tabPageTrush.Controls.Add(this.lbTrashTitle);
-            this.tabPageTrush.Location = new System.Drawing.Point(4, 34);
+            this.tabPageTrush.Location = new System.Drawing.Point(4, 29);
             this.tabPageTrush.Name = "tabPageTrush";
             this.tabPageTrush.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageTrush.Size = new System.Drawing.Size(740, 563);
+            this.tabPageTrush.Size = new System.Drawing.Size(744, 572);
             this.tabPageTrush.TabIndex = 3;
             this.tabPageTrush.Text = "Мусор";
             this.tabPageTrush.UseVisualStyleBackColor = true;
@@ -1008,11 +1008,11 @@
             this.суммаDataGridViewTextBoxColumn3});
             this.trashGridView.DataSource = this.trashBindingSource;
             this.trashGridView.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.trashGridView.Location = new System.Drawing.Point(3, 158);
+            this.trashGridView.Location = new System.Drawing.Point(3, 167);
             this.trashGridView.Name = "trashGridView";
             this.trashGridView.RowHeadersWidth = 62;
             this.trashGridView.RowTemplate.Height = 24;
-            this.trashGridView.Size = new System.Drawing.Size(734, 402);
+            this.trashGridView.Size = new System.Drawing.Size(738, 402);
             this.trashGridView.TabIndex = 33;
             // 
             // pictureBoxTrash
@@ -1033,7 +1033,7 @@
             this.TbxTrashConstVal.Location = new System.Drawing.Point(500, 101);
             this.TbxTrashConstVal.Name = "TbxTrashConstVal";
             this.TbxTrashConstVal.ReadOnly = true;
-            this.TbxTrashConstVal.Size = new System.Drawing.Size(76, 44);
+            this.TbxTrashConstVal.Size = new System.Drawing.Size(76, 38);
             this.TbxTrashConstVal.TabIndex = 31;
             this.TbxTrashConstVal.Text = "75.22";
             this.TbxTrashConstVal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1055,7 +1055,7 @@
             this.tbxPersonAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxPersonAmount.Location = new System.Drawing.Point(184, 52);
             this.tbxPersonAmount.Name = "tbxPersonAmount";
-            this.tbxPersonAmount.Size = new System.Drawing.Size(100, 39);
+            this.tbxPersonAmount.Size = new System.Drawing.Size(100, 34);
             this.tbxPersonAmount.TabIndex = 22;
             this.tbxPersonAmount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.tbxPersonAmount.TextChanged += new System.EventHandler(this.tbxPersonAmount_TextChanged);
@@ -1093,7 +1093,7 @@
             this.tbxTrashResultPay.Location = new System.Drawing.Point(184, 89);
             this.tbxTrashResultPay.Name = "tbxTrashResultPay";
             this.tbxTrashResultPay.ReadOnly = true;
-            this.tbxTrashResultPay.Size = new System.Drawing.Size(100, 48);
+            this.tbxTrashResultPay.Size = new System.Drawing.Size(100, 41);
             this.tbxTrashResultPay.TabIndex = 27;
             this.tbxTrashResultPay.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -1103,7 +1103,7 @@
             this.lbTrashResultPay.Font = new System.Drawing.Font("Consolas", 13.84615F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbTrashResultPay.Location = new System.Drawing.Point(36, 98);
             this.lbTrashResultPay.Name = "lbTrashResultPay";
-            this.lbTrashResultPay.Size = new System.Drawing.Size(195, 33);
+            this.lbTrashResultPay.Size = new System.Drawing.Size(168, 28);
             this.lbTrashResultPay.TabIndex = 30;
             this.lbTrashResultPay.Text = "Сумма (руб):";
             // 
@@ -1114,7 +1114,7 @@
             this.lbTrashConst.ForeColor = System.Drawing.Color.Teal;
             this.lbTrashConst.Location = new System.Drawing.Point(480, 69);
             this.lbTrashConst.Name = "lbTrashConst";
-            this.lbTrashConst.Size = new System.Drawing.Size(195, 33);
+            this.lbTrashConst.Size = new System.Drawing.Size(168, 28);
             this.lbTrashConst.TabIndex = 28;
             this.lbTrashConst.Text = "Тариф (руб):";
             // 
@@ -1124,7 +1124,7 @@
             this.lbPersonAmount.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lbPersonAmount.Location = new System.Drawing.Point(9, 43);
             this.lbPersonAmount.Name = "lbPersonAmount";
-            this.lbPersonAmount.Size = new System.Drawing.Size(228, 52);
+            this.lbPersonAmount.Size = new System.Drawing.Size(190, 44);
             this.lbPersonAmount.TabIndex = 25;
             this.lbPersonAmount.Text = "Введите количество\r\n          ЧЕЛОВЕК:";
             // 
@@ -1135,7 +1135,7 @@
             this.lbTrashTitle.ForeColor = System.Drawing.Color.Green;
             this.lbTrashTitle.Location = new System.Drawing.Point(253, 3);
             this.lbTrashTitle.Name = "lbTrashTitle";
-            this.lbTrashTitle.Size = new System.Drawing.Size(269, 38);
+            this.lbTrashTitle.Size = new System.Drawing.Size(225, 33);
             this.lbTrashTitle.TabIndex = 23;
             this.lbTrashTitle.Text = "Бытовые отходы";
             // 
@@ -1421,9 +1421,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(748, 634);
+            this.ClientSize = new System.Drawing.Size(752, 641);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Verdana", 9.969231F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));

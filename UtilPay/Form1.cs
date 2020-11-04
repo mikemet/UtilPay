@@ -13,7 +13,7 @@ namespace UtilPay
             light = new Light();
         }
 
-        // =======================  MENU  ==============================
+        // =======================  MENU  =============================
         private void ExitAltF4ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();

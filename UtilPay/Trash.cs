@@ -2,7 +2,7 @@
 {
     class Trash
     {
-        const decimal TrashTariff = 75.22M;
+        const decimal TrashTariff = 77.24M;
         public decimal totalTrashCoast;
 
         public Trash()

@@ -2,7 +2,7 @@
 {
     class Water
     {
-        const decimal WaterTariff = 26.34M;
+        const decimal WaterTariff = 26.99M;
         public uint SpentCubes;
         public decimal TotalWaterCost;
 
